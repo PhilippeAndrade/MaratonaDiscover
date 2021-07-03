@@ -41,6 +41,3 @@ function getSelecaoModoNoturno() {
 function setSelecaoModoNoturno(modo) {
     localStorage.setItem(MODO_NOTURNO_KEY, modo)
 }
-
-window.getSelecaoModoNoturno = getSelecaoModoNoturno;
-window.setSelecaoModoNoturno = setSelecaoModoNoturno;
